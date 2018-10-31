@@ -1,8 +1,26 @@
-## 2.1 (August 27, 2018)
-* Mock Server minor URL definition conflication issue.
+## v2.7 (October 27, 2018)
+* big improvement of rest running related UI, like progress bar and status
+* support request history for Python and nodejs based mockserver
+* bug fix for url routing of Python based mockserver.
 
-## 2.0 (July 30, 2018)
-* Support Pyton and JavaScrip(nodejs) programming in Mock Server and Rest Auto Testing.
+## v2.6 (October 17, 2018)
+* bug fix for req.body undefined under certain conditon in nodejs based mock server.
+* bug fix for failed to create case when directory level more than three in some cases
 
-## 1.0 (March 30, 2018)
-* initial releasde of Restbird with golang programming support.
+## v2.5 (September 27, 2018)
+* bugs fix for rest python, rest golang template and several gui improvements.
+
+## v2.2 (August 27, 2018)
+* bug fix for python based mock server, which cause listen port INUSE error.
+
+## v2.1 (August 17, 2018)
+* bug fix for golang based mock server when you define mock APIs with same url path but different methods.
+
+## v2.0 (July 30, 2018)
+* Added Python and Javascript(nodejs) programming supported all through the projects.
+* program examples added for all three programm languages (Python, JavaScript, Golang).
+
+## v1.0 (March 30, 2018)
+* Initial release of Restbird Docker image
+* supports Rest Api Testing/Validation, Mock Server, Http Recorder and Replay.
+* Golang as the programing language is supported all through the projects.
