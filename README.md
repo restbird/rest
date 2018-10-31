@@ -1,10 +1,15 @@
 ## Overview
 RestBird is an easy-to-use and best programmable all-in-one Rest development tools set, include Rest debug, (auto) Test, loading, MockServer, Recording and Replay.
 
-restbird can be deployed as a docker container, which can be on your local pc using by yourself, or on a server that  can be shared by the te
+restbird can be deployed as a docker container, which can be on your local pc using by yourself, or on a server that  can be shared by the whole team.
 
-Docker delopyment, support team collaboration by nature.
-Supports unlimited users, projects, cases, apis, scripts. 
+restbird upports unlimited users, projects, cases, apis, scripts. All project cases support golang, JavaScript(nodejs) or Python programming, and no restriction on importing any 3rd party library. Flexible to choose what you are farmiliar with or you like.
+
+Everything is saved on host’s local filesystem, this is the code base you can manage with any of your version control system ( git , svn , etc.)
+
+You can also choose any of your favorite code editor to edit case, api. Every change you made is reflected in Restbird web portal instantly for better visualization and testing, isn’t it amazing?
+
+## Install restbird
 
 #### Step1 : Pull RestBird docker image
 
