@@ -1,3 +1,9 @@
+## v3.0 (November 10, 2018)
+* supported vscode editor debugging for rest/mocker server/task with all languages supporing: golang, Python, JavaScript
+* there are upgrade issues that need to be manually handed to upgrade from 2.x to 3.0 includes
+> * for golang based task & rest project, when we use callapi function, we changed to use "import restbird/rest/xxxx/" instead of "import restbird/xxxx" to import the api
+> * for golang based mock server, when we use state, we must add the importing to the script's head "import State"
+
 ## v2.7 (October 27, 2018)
 * big improvement of rest running related UI, like progress bar and status
 * support request history for Python and nodejs based mockserver
