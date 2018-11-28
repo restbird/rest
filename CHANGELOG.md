@@ -1,3 +1,8 @@
+## v3.1 (November 27, 2018)
+* improve debugging functions with VSCode plugin
+* examples update to relect the latest scripting programming
+* task template changes
+    
 ## v3.0 (November 10, 2018)
 * supported vscode editor debugging for rest/mocker server/task with all languages supporing: golang, Python, JavaScript
 * there are upgrade issues that need to be manually handed to upgrade from 2.x to 3.0 includes
