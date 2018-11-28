@@ -34,7 +34,7 @@ sudo docker run    -ti    -p 8080:8080    -v /var/my-first-project:/data/restbir
 sudo docker run    -ti    --network host -v /var/my-first-project:/data/restbird    restbird/rest
 ```
 
-Now, we can launch the browser to access the restbird portal: http://localost:8080/ or http://{host-ip-address}:8080/  
+Now, we can launch the browser to access the restbird portal: http://localhost:8080/ or http://{host-ip-address}:8080/  
 
 ![RestBird Login](https://restbird.org/static/restbird-login-9bd8e545ae189a0efb1469f080cad97d-9794d.png)
 
