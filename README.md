@@ -27,7 +27,11 @@ $ls /var/my-first-project
 
 #### Step3:  run the restbird/rest container and mapping the project directory we just created.
 ```bash
+# run docker from an isolated network on host
 sudo docker run    -ti    -p 8080:8080    -v /var/my-first-project:/data/restbird    restbird/rest
+
+# or run docker on host's network directly for simple
+sudo docker run    -ti    --network host -v /var/my-first-project:/data/restbird    restbird/rest
 ```
 
 Now, we can launch the browser to access the restbird portal: http://localost:8080/ or http://{host-ip-address}:8080/  
