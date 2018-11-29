@@ -43,7 +43,7 @@ The default username and password is ***admin***/***admin***. Once login, here i
 ![RestBird dashboard](https://restbird.org/static/restbird-dashboard-1ba9d4684496e0107fde9abc639452f8-ee8d1.png)
 
 here is the rest testing:
-![RestBird rest](https://restbird.org/static/dash-rest.c1580d3a.gif)
+![RestBird rest](https://restbird.org/static/dash-rest.89f4dc01.gif)
 
 
 
